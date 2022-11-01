@@ -1,8 +1,5 @@
 <template>
     <div id="loginuser" class="f-right pt-2 pr-3">
-        <span style="padding-right:20px;font-size:14px;">
-            工单管理
-        </span>
         <el-dropdown>
             <span class="el-dropdown-link">
                 <span class="pr-3 tc-black">管理员：方奇兵</span>
