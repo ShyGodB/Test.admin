@@ -1,6 +1,7 @@
 <template>
     <div id="login" class="h-100">
         <div class="login-box">
+            这里是登录页面
             <el-row>
                 <el-col :span="14">
                     <div class="login-box-left">
@@ -56,44 +57,6 @@
             </el-row>
         </div>
 
-        <!-- <el-dialog title="商家入驻申请" :visible.sync="addDialog">
-            <el-form :model="addForm" label-width="100px">
-                <el-form-item label="商家名称">
-                    <el-input v-model="addForm.name" autocomplete="off"></el-input>
-                </el-form-item>
-                <el-form-item label="手机号">
-                    <el-input v-model="addForm.phone" autocomplete="off"></el-input>
-                </el-form-item>
-                <el-form-item label="登陆密码">
-                    <el-input v-model="addForm.password" autocomplete="off" type="number"></el-input>
-                </el-form-item>
-                <el-form-item label="所属行业">
-                    <el-select v-model="addForm.industryId" placeholder="请选择">
-                        <el-option v-for="item in industryList" :key="item.id" :label="item.name" :value="item.id"></el-option>
-                    </el-select>
-                </el-form-item>
-                <el-form-item label="真实姓名">
-                    <el-input v-model="addForm.realName" autocomplete="off"></el-input>
-                </el-form-item>
-                <el-form-item label="身份证号">
-                    <el-input v-model="addForm.idCard" autocomplete="off"></el-input>
-                </el-form-item>
-                <el-form-item label="营业执照">
-                    <el-col :span="18">
-                        <el-input v-model="addForm.businessLicense" placeholder="请输入网络地址或选择本地文件上传"></el-input>
-                    </el-col>
-                    <el-col :span="6" class="pl-3">
-                        <el-button type="primary" @click="openDialog">手动上传</el-button>
-                    </el-col>
-                </el-form-item>
-            </el-form>
-
-            <div slot="footer" class="dialog-footer">
-                <el-button @click="addDialog = false">取 消</el-button>
-                <el-button type="primary" @click="add">确 定</el-button>
-            </div>
-        </el-dialog> -->
-
         <el-dialog title="app下载" :visible.sync="addDialog">
             <div>
                 <p>应用下载方法: 请使用手机浏览器扫码下载</p>
@@ -145,7 +108,10 @@ export default {
         
     },
     created() {
-        
+        let isLogin = false;
+        if (!isLogin) {
+            this.$router.push('/login')
+        }
     }
 };
 </script>

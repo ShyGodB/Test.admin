@@ -1,6 +1,7 @@
 <template>
     <el-menu
         class="el-menu-vertical-demo"
+        :collapse="false"
         background-color="#39527F"
         text-color="#ffffff"
         :router="true"
@@ -31,8 +32,27 @@ export default {
     name: "sidebar_page",
     data() {
         return {
-            menus: [],
-            menuItems: [],
+            menuItems: [{
+                name: '主页',
+                path: '/',
+                icon: 'el-icon-s-home'
+            }, {
+                name: '用户列表列表',
+                path: '/user',
+                icon: 'el-icon-user-solid'
+            }, {
+                name: '聊天室',
+                path: '/IM',
+                icon: 'el-icon-s-custom'
+            }, {
+                name: '商品管理',
+                path: '/goods',
+                icon: 'el-icon-s-order'
+            }, {
+                name: '管理员',
+                path: '/adminUser',
+                icon: 'el-icon-s-tools'
+            }],
             subMenus: [],
             activeMenu: "",
         };

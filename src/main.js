@@ -10,9 +10,9 @@ import Element from 'element-ui'
 // import asyncTool from './util/asyncTool'
 // import tool from './util/tool'
 // import './registerServiceWorker'
-// import 'element-ui/lib/theme-chalk/index.css'
-// import 'element-ui/lib/theme-chalk/display.css'
-// import './assets/css/index.css'
+import 'element-ui/lib/theme-chalk/index.css'
+import 'element-ui/lib/theme-chalk/display.css'
+import './assets/css/index.css'
 // import VueAMap from 'vue-amap'
 // import Xlsx from "@/components/Tools/Xlsx"
 // import Content from "@/components/doc/Content"

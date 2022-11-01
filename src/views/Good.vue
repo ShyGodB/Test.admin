@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name: "Index_page",
+    name: "Good_page",
     data() {
         return {
             role: '',

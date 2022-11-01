@@ -10,9 +10,6 @@
                 <i class="el-icon-arrow-down el-icon--right"></i>
             </span>
             <el-dropdown-menu slot="dropdown">
-                <!-- <el-dropdown-item>
-                    <el-button type="text" @click="profile">工单管理</el-button>
-                </el-dropdown-item> -->
                 <el-dropdown-item>
                     <el-button type="text">退出</el-button>
                 </el-dropdown-item>

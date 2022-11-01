@@ -1,6 +1,6 @@
 <template>
     <div id="Layout">
-        <div class="d-inline-block f-left fill-h" :style="'background-color: white'">
+        <div class="d-inline-block f-left fill-h" style="background-color:gray">
             <el-scrollbar
                 wrap-class="list"
                 wrap-style="color: red;"
@@ -11,7 +11,7 @@
             </el-scrollbar>
         </div>
 
-        <div class="d-inline-block f-left right" >
+        <div class="d-inline-block f-left right">
             <el-scrollbar wrap-class="list" view-class="view-box" :native="false">
                 <div class="content">
                     <el-row>
@@ -72,5 +72,9 @@ export default {
 }
 .el-row {
     height: 56px;
+}
+
+.float-right {
+    float: left;
 }
 </style>
