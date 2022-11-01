@@ -1,0 +1,140 @@
+.bg-dark {
+    background-color: #000000;
+}
+
+.bg-red {
+    background-color: #ff0000;
+}
+
+.bg-danger {
+    background-color: #dd6161;
+}
+
+.bg-green {
+    background-color: #00ff00;
+}
+
+.bg-gray {
+    background-color: slategray;
+}
+
+.bg-success {
+    background-color: #67C23A;
+}
+ 
+.bg-offwhite {
+    background-color: #f2f2f2;
+}
+
+.bg-warning {
+    background-color: #fc8200;
+}
+
+.bg-icon-orderList {
+    background: url(../icon/orderList.png) center no-repeat
+        #56a031;
+    background-size: 30px;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.bg-icon-collectList {
+    background: url(../icon/collectList.png) center no-repeat
+        #fc8200;
+    background-size: 30px;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.bg-icon-advice {
+    background: url(../icon/advice.png) center no-repeat
+        #fc8200;
+    background-size: 30px;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.bg-icon-comments {
+    background: url(../icon/comments.png) center no-repeat
+        #fc8200;
+    background-size: 30px;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.bg-icon-coupon {
+    background: url(../icon/comments.png) center no-repeat
+        #fc8200;
+    background-size: 30px;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.bg-icon-invite {
+    background: url(../icon/comments.png) center no-repeat
+        #fc8200;
+    background-size: 30px;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.bg-icon-balance {
+    background: url(../icon/comments.png) center no-repeat
+        #fc8200;
+    background-size: 30px;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.bg-icon-location {
+    background: url(../icon/comments.png) center no-repeat
+        #fc8200;
+    background-size: 30px;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.bg-icon-review {
+    background: url(../icon/comments.png) center no-repeat
+        #fc8200;
+    background-size: 30px;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.bg-icon-addReview {
+    background: url(../icon/add.png) center no-repeat
+        #fc8200;
+    background-size: 30px;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+}
+.bg-icon-addDanger {
+    background: url(../icon/add.png) center no-repeat
+        #ff0000;
+    background-size: 30px;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+}
