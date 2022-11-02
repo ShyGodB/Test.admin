@@ -1,0 +1,79 @@
+#mainnav .f-left {
+    float: left;
+}
+
+#mainnav .f-right {
+    float: right;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.router-link-active {
+    text-decoration: none;
+}
+
+.line {
+    display: inline-block;
+}
+
+.text-none {
+    text-decoration: none;
+}
+
+.hover-hand {
+    cursor: pointer;
+}
+
+.oa {
+    overflow: auto;
+}
+
+.border-8 {
+    border-radius: 8px;
+}
+
+.breadcrumb {
+    margin-left: 1rem;
+    font-size: 1rem;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.wid-20 {
+    width: 20px;
+}
+
+.hei-20 {
+    height: 20px;
+}
+
+.hei-30 {
+    height: 30px;
+}
+
+.hei-300 {
+    height: 300px;
+}
+
+.hei-400 {
+    height: 400px;
+}
+
+.marginAuto {
+    margin: auto;
+}
+
+.el-form-item {
+    margin-bottom: 11px;
+}

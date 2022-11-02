@@ -1,0 +1,84 @@
+/*
+ * tc === text + color
+ * tfs === text + font + size
+ * tfw === text + font + weight
+ * ta === text + align
+ * tfs === text + font + size
+ * tfs === text + font + size
+ */
+.tc-black {
+    color: #000000;
+}
+
+.tc-white {
+    color: #ffffff;
+}
+
+.tc-red {
+    color: #ff0000;
+}
+
+.tc-green-l {
+    color: #00ff00;
+}
+
+
+.tc-success {
+    color: #67C23A;
+}
+
+.tc-blue {
+    color: #409eff;
+}
+
+.tc-orange {
+    color: orange;
+}
+
+.tc-danger {
+    color: #dd6161;
+}
+
+.tc-green {
+    color: #65a031;
+}
+
+.tfs-33 {
+    font-size: 33px;
+}
+
+.tfs-30 {
+    font-size: 30px;
+}
+
+.tfs-28 {
+    font-size: 28px;
+}
+
+.tfs-26 {
+    font-size: 26px;
+}
+
+.tfs-24 {
+    font-size: 24px;
+}
+
+.tfs-23 {
+    font-size: 23px;
+}
+
+.tfs-22 {
+    font-size: 23px;
+}
+
+.tfs-20 {
+    font-size: 20px;
+}
+
+.tfw-bold {
+    font-weight: bold;
+}
+
+.ta-center {
+    text-align: center;
+}
