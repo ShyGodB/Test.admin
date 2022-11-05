@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 
 // 分别引入各个模块的路由
 // import orderRouter from './modules/order'
-// import userRouter from './modules/user'
+import userRouter from './modules/user'
 // import techRouter from './modules/tech'
 // import operationRouter from './modules/operation'
 // import authRouter from './modules/auth'
@@ -30,33 +30,14 @@ const routes = [
                 meta: { title: '主页' },
                 component: () => import('@/views/Index.vue')
             },
-            {
-                path: '/user',
-                name: 'User',
-                component: () => import('@/views/User.vue')
-            },
-            {
-                path: '/im',
-                name: 'IM',
-                component: () => import('@/views/IM.vue')
-            },
-            {
-                path: '/goods',
-                name: 'Good',
-                component: () => import('@/views/Good.vue')
-            },
-            {
-                path: '/adminuser',
-                name: 'Admin',
-                component: () => import('@/views/Admin.vue')
-            },
         ]
     },
     {
         path: '/login',
         name: 'Login',
         component: () => import('@/views/Login.vue')
-    }
+    },
+    userRouter
 ]
 
 // 实例化路由对象
