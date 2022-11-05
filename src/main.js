@@ -5,7 +5,7 @@ import store from './store'
 // import echarts from 'echarts'
 import Element from 'element-ui'
 // import VueCropper from 'vue-cropper'
-// import api from './api'
+import api from './api'
 // import config from './util/config'
 // import asyncTool from './util/asyncTool'
 // import tool from './util/tool'
@@ -28,7 +28,7 @@ Vue.use(Element)
 //     return format.dateFormat(this, args)
 // }
 // Vue.prototype.$echarts = echarts
-// Vue.prototype.$api = api
+Vue.prototype.$api = api
 // Vue.prototype.$config = config
 // Vue.prototype.$tool = tool
 // Vue.prototype.$asyncTool = asyncTool
