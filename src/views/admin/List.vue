@@ -1,12 +1,12 @@
 <template>
     <div class="w-100">
-        <h1>111111111111111111111111111</h1>
+        <h1>这里是管理员配置界面</h1>
     </div>
 </template>
 
 <script>
 export default {
-    name: "Good_page",
+    name: "Index_page",
     data() {
         return {
             role: '',

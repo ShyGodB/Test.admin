@@ -7,12 +7,12 @@ module.exports = defineConfig({
   lintOnSave: false, // 是否开启语法检测
   devServer: {
       open: true,
-      host: '0.0.0.0',
+      host: '127.0.0.1',
       port: 8080,
       // https: false,
       proxy: {
         "/api": {
-            target: process.env.NODE_ENV === "development" ? 'http://127.0.0.1:3001/api' : 'http://127.0.0.1:3001/api',
+            target: process.env.NODE_ENV === "development" ? 'http://127.0.0.1:3001' : 'http://127.0.0.1:3001',
             ws: false,
             changeOrigin: true,
             secure: false,

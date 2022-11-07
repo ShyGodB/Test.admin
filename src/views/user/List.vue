@@ -1,6 +1,5 @@
 <template>
     <div>
-        <h1>users</h1>
         <!-- <el-form :model="ruleForm" ref="ruleForm" label-width="100px">
             <el-row>
                 <el-col :span="6">
@@ -44,22 +43,18 @@
                 <el-button type="primary" @click="submitForm('ruleForm')">确定</el-button>
                 <el-button @click="resetForm('ruleForm')">重置</el-button>
             </el-form-item>
-        </el-form>
+        </el-form> -->
 
         <el-table :data="tableData" style="width: 100%">
-            <el-table-column prop="userId" label="编号" width="120" :show-overflow-tooltip="true"></el-table-column>
+            <el-table-column prop="id" label="编号" width="120" :show-overflow-tooltip="true"></el-table-column>
 
-            <el-table-column prop="nickName" label="姓名" :show-overflow-tooltip="true"></el-table-column>
+            <el-table-column prop="nickName" label="昵称" :show-overflow-tooltip="true"></el-table-column>
+
+            <el-table-column prop="realName" label="姓名" :show-overflow-tooltip="true"></el-table-column>
 
             <el-table-column prop="phone" label="手机" width="120" :show-overflow-tooltip="true"></el-table-column>
 
-            <el-table-column prop="amountRecharge" label="充值余额" width="100" :show-overflow-tooltip="true"></el-table-column>
-
-            <el-table-column prop="amountRefund" label="退款余额" width="100" :show-overflow-tooltip="true"></el-table-column>
-
             <el-table-column prop="regSource" label="注册来源" width="180" :show-overflow-tooltip="true"></el-table-column>
-
-            <el-table-column prop="inviteId" label="邀请编号" width="180" :show-overflow-tooltip="true"></el-table-column>
 
             <el-table-column prop="createTime" label="注册时间" width="180" :show-overflow-tooltip="true"></el-table-column>
 
@@ -78,7 +73,7 @@
             :page-size="ruleForm.pageSize"
             layout="total, sizes, prev, pager, next, jumper"
             :total="total"
-        ></el-pagination> -->
+        ></el-pagination>
     </div>
 </template>
 
@@ -145,9 +140,8 @@ export default {
             console.log('123123kasdfasjdk')
         },
         async list() {
-            console.log(123123123)
-            const res = await this.$api.get("/userList", {});
-            console.log('--------', res)
+            const res = await this.$api.get("/listUser", {});
+            this.tableData = res.list;
         },
     },
     created() {

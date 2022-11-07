@@ -7,6 +7,10 @@ Vue.use(VueRouter)
 // 分别引入各个模块的路由
 // import orderRouter from './modules/order'
 import userRouter from './modules/user'
+import imRouter from './modules/im'
+import goodRouter from './modules/good'
+import adminRouter from './modules/admin'
+
 // import techRouter from './modules/tech'
 // import operationRouter from './modules/operation'
 // import authRouter from './modules/auth'
@@ -37,7 +41,10 @@ const routes = [
         name: 'Login',
         component: () => import('@/views/Login.vue')
     },
-    userRouter
+    userRouter,
+    imRouter,
+    goodRouter,
+    adminRouter,
 ]
 
 // 实例化路由对象

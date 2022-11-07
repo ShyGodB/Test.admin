@@ -1,12 +1,12 @@
 <template>
     <div class="w-100">
-        <h1>IMIMIMIMIMIMIMIMIMIMIMIMIMIMIMIMIMIMIMIMIMIMIM</h1>
+        <h1>商品列表页</h1>
     </div>
 </template>
 
 <script>
 export default {
-    name: "Index_page",
+    name: "Good_page",
     data() {
         return {
             role: '',

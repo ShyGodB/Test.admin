@@ -42,15 +42,15 @@ export default {
                 icon: 'el-icon-user-solid'
             }, {
                 name: '聊天室',
-                path: '/IM',
+                path: '/im',
                 icon: 'el-icon-s-custom'
             }, {
                 name: '商品管理',
-                path: '/goods',
+                path: '/good',
                 icon: 'el-icon-s-order'
             }, {
                 name: '管理员',
-                path: '/adminUser',
+                path: '/admin',
                 icon: 'el-icon-s-tools'
             }],
             subMenus: [],
